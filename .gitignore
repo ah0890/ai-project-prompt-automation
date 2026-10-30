@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated at runtime (may contain your project ideas and paid-for prompts;
+# back up data/generated_prompts.json yourself if you want to keep it)
+output/
+logs/
+data/
+
+# Input workbook (private project list; remove this line to version it)
+Project_Master_List.xlsx
+Projects_Master_List.xlsx
+
+# Office lock/temp files
+~$*
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
